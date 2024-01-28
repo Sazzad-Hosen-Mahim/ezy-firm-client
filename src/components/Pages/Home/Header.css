@@ -1,0 +1,74 @@
+.header-container {
+     font-family: 'Poppins', sans-serif;
+     position: relative;
+     height: 700px;
+     /* Set the desired height of your header */
+     color: white;
+     text-align: center;
+     overflow: hidden;
+}
+
+.header-background {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-image: url('../../../assets/image/header/agri-img-1.jpg');
+     /* Replace with your image path */
+     background-size: cover;
+     z-index: 1;
+}
+
+.header-background::after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.5);
+     /* Adjust the opacity as needed (0.0 to 1.0) */
+     z-index: 2;
+     /* Ensure the overlay is on top of the background image */
+}
+
+.header-content {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 2
+}
+
+.heading {
+     font-size: 3em;
+     /* Adjust the font size as needed */
+     margin-bottom: 20px;
+}
+
+.paragraph {
+     font-size: 1.2em;
+     /* Adjust the font size as needed */
+     margin-bottom: 30px;
+}
+
+
+
+button {
+     padding: 10px 20px;
+     font-size: 1em;
+     /* Adjust the font size as needed */
+     background-color: #048791;
+     /* Change the background color */
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+}
+
+button:hover {
+     background-color: #45a049;
+     /* Change the hover background color */
+}
