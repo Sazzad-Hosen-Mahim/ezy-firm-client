@@ -1,95 +1,95 @@
 import React from "react";
+import "./Contact.css";
+import { MdOutlineEmail } from "react-icons/md";
+import { RiMessengerLine } from "react-icons/ri";
+import { ImWhatsapp } from "react-icons/im";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_77jjoir",
+        "template_mh4hxde",
+        form.current,
+        "I0_Njla0bWDm-XmZd"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+  };
   return (
-    <div className="my-10">
-      <h1 className="text-3xl my-5 text-center font-bold">Contact: </h1>
-      <div className="w-4/5 text-center mx-auto text-black">
-        <hr />
-      </div>
-      <section class="text-gray-600 body-font relative">
-        <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
-          <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-            <iframe
-              width="100%"
-              height="100%"
-              class="absolute inset-0"
-              frameborder="0"
-              title="map"
-              marginheight="0"
-              marginwidth="0"
-              scrolling="no"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-            ></iframe>
-            <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
-              <div class="lg:w-1/2 px-6">
-                <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
-                  ADDRESS
-                </h2>
-                <p class="mt-1">
-                  Fatepur, Madanhat-4330, Hathazari, Chattogram, Bangladesh.
-                </p>
-              </div>
-              <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">
-                  EMAIL
-                </h2>
-                <a class="text-indigo-500 leading-relaxed">
-                  sajjadhosenmahim@gmail.com
-                </a>
-                <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
-                  PHONE
-                </h2>
-                <p class="leading-relaxed">+8801857589709</p>
-              </div>
-            </div>
-          </div>
-          <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-            <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
-              Feedback
-            </h2>
-            <p class="leading-relaxed mb-5 text-gray-600">
-              Contact us for more information
-            </p>
-            <div class="relative mb-4">
-              <label for="name" class="leading-7 text-sm text-gray-600">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div class="relative mb-4">
-              <label for="email" class="leading-7 text-sm text-gray-600">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div class="relative mb-4">
-              <label for="message" class="leading-7 text-sm text-gray-600">
-                Message
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              ></textarea>
-            </div>
-            <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Button
-            </button>
-          </div>
+    <section id="contact" className="text-center mx-auto contact-section">
+      <h5 className="text-xl mb-5">Get In Touch</h5>
+      <h2 className="text-5xl mb-16">Contact Us</h2>
+
+      <div className="container contact-container text-center mx-auto">
+        <div className="contact-options">
+          <article className="contact-option">
+            <MdOutlineEmail className="contact-option-icon" />
+            <h4>Email</h4>
+            <h5>mmahim67@gmail.com</h5>
+            <a href="mailto:mmahim67@gmail.com" target="_blank">
+              Send a message
+            </a>
+          </article>
+          <article className="contact-option">
+            <RiMessengerLine className="contact-option-icon" />
+            <h4>Messenger</h4>
+            <h5>Sazzad Hosen</h5>
+            <a href="https://m.me/sazzad.mahimm" target="_blank">
+              Send a message
+            </a>
+          </article>
+          <article className="contact-option">
+            <ImWhatsapp className="contact-option-icon" />
+            <h4>Whatsapp</h4>
+            <h5>+8801857589709</h5>
+            <a href="https://wa.me/+8801857589709" target="_blank">
+              Send a message
+            </a>
+          </article>
         </div>
-      </section>
-    </div>
+        {/* End of contact option  */}
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
+          <input
+            className="contact-input"
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <input
+            className="contact-input"
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            className="textarea"
+            name="message"
+            rows="7"
+            placeholder="Your Message"
+          ></textarea>
+          <button type="submit" className="contact-btn">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
   );
 };
 

@@ -69,7 +69,7 @@ const CropLivestockDetails = () => {
                 <Link
                   to={`/dashboard/user/crop-livestock/update-livestock/${cropLivestock._id}`}
                 >
-                  <button className="btn btn-success mr-5">Update</button>
+                  <button className="btn bg-emerald-500 mr-5">Update</button>
                 </Link>
                 <button className="btn btn-error" onClick={handleDelete}>
                   Delete

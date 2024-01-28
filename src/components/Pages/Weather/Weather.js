@@ -52,7 +52,7 @@ const Weather = () => {
             Submit
           </button>
         </div>
-        <div className="container">
+        <div className="weather-container">
           <div className="top">
             <div className="location">
               <p>{data.name}</p>

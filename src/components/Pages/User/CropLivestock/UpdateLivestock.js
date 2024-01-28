@@ -73,6 +73,7 @@ const UpdateLivestock = () => {
       );
       if (data?.success) {
         toast.success(data?.message);
+        navigate("/dashboard/user/crop-livestock");
       } else {
         toast.success("Crop Livestock Updated successfully");
         navigate("/dashboard/user");

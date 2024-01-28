@@ -91,7 +91,7 @@ const CropLivestock = () => {
             <div className="grid grid-cols-2">
               {matched.map((l) => (
                 <>
-                  <div className="card w-96 bg-sky-400 shadow-xl">
+                  <div className="card w-96 livestock-card shadow-xl">
                     <div className="card-body">
                       <h2 className="card-title text-black font-bold">
                         {l.name}

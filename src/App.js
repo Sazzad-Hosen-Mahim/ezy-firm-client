@@ -28,6 +28,7 @@ import CropLivestockDetails from "./components/Pages/User/CropLivestock/CropLive
 import UpdateLivestock from "./components/Pages/User/CropLivestock/UpdateLivestock";
 import MarketplaceTwo from "./components/Pages/Marketplace/MarketplaceTwo";
 import Weather from "./components/Pages/Weather/Weather";
+import ContactTwo from "./components/Pages/Contact/ContactTwo";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           element={<MarketplaceTwo></MarketplaceTwo>}
         ></Route>
         <Route path="/weather" element={<Weather></Weather>}></Route>
+        <Route path="/contact" element={<ContactTwo></ContactTwo>}></Route>
         <Route
           path="/product/:slug"
           element={<ProductDetails></ProductDetails>}
