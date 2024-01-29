@@ -32,14 +32,26 @@ const NavigationBarTwo = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-20 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li className="border-r-2">
-              <a>Home</a>
+            <li className="mr-2 bg-sky-500 rounded-md text-white">
+              <Link to="/">Home</Link>
             </li>
-            <li>
-              <a>About</a>
+            <li className="mr-2 bg-sky-500 rounded-md text-white">
+              <Link to="/about">About</Link>
             </li>
-            <li>
-              <a>Crop Disease Detection</a>
+            <li className="mr-2 bg-sky-500 rounded-md text-white">
+              <Link to="/services">Services</Link>
+            </li>
+            <li className="mr-2 bg-sky-500 rounded-md text-white">
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li className="mr-2 bg-sky-500 rounded-md text-white">
+              <Link to="/marketplace">Marketplace</Link>
+            </li>
+            <li className="mr-2 bg-sky-500 rounded-md text-white">
+              <Link to="/weather">Weather</Link>
+            </li>
+            <li className="mr-2 bg-sky-500 rounded-md text-white">
+              <Link to="/cropDisease">Detect Disease</Link>
             </li>
           </ul>
         </div>

@@ -31,16 +31,13 @@ const Services = () => {
                     soil health for farmers and gardeners. Through advanced
                     analysis, we assess nutrient levels, pH balance, and
                     potential contaminants, offering tailored recommendations
-                    for optimized crop growth. Our quick and accurate results
-                    empower users to make informed decisions on fertilization,
-                    irrigation, and overall soil management, ultimately leading
-                    to increased yields and sustainable agricultural practices.
-                    Cultivate success with our Soil Testing service, ensuring
-                    your soil is the foundation for a thriving and
-                    environmentally responsible harvest.
+                    for optimized crop growth.
                   </p>
                   <div class="flex items-center flex-wrap ">
-                    <Link class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                    <Link
+                      to="/servicepage"
+                      class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    >
                       Learn More
                       <svg
                         class="w-4 h-4 ml-2"
@@ -92,14 +89,13 @@ const Services = () => {
                     specific needs of your soil and crops, promoting robust
                     growth and increased yields. With a focus on precision and
                     sustainability, we ensure efficient fertilizer use,
-                    minimizing environmental impact. Trust our Fertilization
-                    service to optimize nutrient balance, enhance soil
-                    fertility, and foster a healthier, more bountiful harvest.
-                    Boost your agricultural endeavors with targeted and
-                    sustainable fertilization strategies.
+                    minimizing environmental impact.
                   </p>
                   <div class="flex items-center flex-wrap">
-                    <Link class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                    <Link
+                      to="/servicepage"
+                      class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    >
                       Learn More
                       <svg
                         class="w-4 h-4 ml-2"
@@ -149,17 +145,13 @@ const Services = () => {
                     We employ cutting-edge techniques to identify, manage, and
                     prevent the impact of pests and diseases on your
                     agricultural yield. Our experts provide strategic solutions,
-                    incorporating both organic and sustainable practices. By
-                    focusing on early detection and targeted interventions, we
-                    safeguard your crops, ensuring a healthier and more
-                    resilient harvest. Trust our Pest and Disease Control
-                    service to protect your investment and cultivate a thriving,
-                    pest-free environment for your plants. Elevate your crop
-                    management with our expertise in sustainable pest and
-                    disease control strategies.
+                    incorporating both organic and sustainable practices.
                   </p>
                   <div class="flex items-center flex-wrap ">
-                    <Link class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                    <Link
+                      to="/servicepage"
+                      class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    >
                       Learn More
                       <svg
                         class="w-4 h-4 ml-2"

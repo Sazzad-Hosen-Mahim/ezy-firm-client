@@ -167,7 +167,7 @@ const Marketplace = () => {
           </div>
         </div>
 
-        <div className="col-span-3 text-lg font-semibold userInfo grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
+        <div className="col-span-3 text-lg font-semibold userInfo grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5">
           {products?.map((p) => (
             <div className="card w-96 bg-base-100 shadow-xl h-2/3">
               <figure>

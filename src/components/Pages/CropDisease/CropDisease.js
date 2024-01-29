@@ -21,7 +21,7 @@ const CropDisease = () => {
           </div>
         </div>
         <div className="col-span-8">
-          <p className="text-md mt-10">
+          <p className="text-md mt-10 mb-20">
             <p>
               Welcome to our cutting-edge Crop Disease Detection section, where
               we bring innovation to the heart of agriculture. In this
