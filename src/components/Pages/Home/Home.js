@@ -5,6 +5,7 @@ import Marketplace from "../Marketplace/Marketplace";
 import Header from "./Header";
 import Services from "../Services/Services";
 import Contact from "../Contact/Contact";
+import VideoSection from "../VideoSection/VideoSection";
 
 const Home = () => {
   const [auth, setAuth] = useAuth();
@@ -13,6 +14,7 @@ const Home = () => {
       <Header></Header>
       <Marketplace></Marketplace>
       <Services></Services>
+      <VideoSection></VideoSection>
       <Contact></Contact>
     </Layout>
   );
