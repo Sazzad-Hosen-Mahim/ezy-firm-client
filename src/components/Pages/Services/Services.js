@@ -8,15 +8,17 @@ import "./Services.css";
 const Services = () => {
   return (
     <div className="my-10">
-      <h1 className="text-3xl my-5 text-center font-bold">Services: </h1>
-      <div className="w-4/5 text-center mx-auto text-black">
-        <hr />
-      </div>
-      <section class="text-gray-600 body-font">
+      <section class="text-gray-600 body-font service-container">
+        <h1 className="text-3xl my-5 text-black text-center font-bold">
+          Services:{" "}
+        </h1>
+        <div className="w-4/5 text-center mx-auto text-black">
+          <hr />
+        </div>
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
-              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <div class="p-4 md:w-1/3 ">
+              <div class="h-full border-2 bg-gray-300  border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   class="lg:h-48 md:h-36 w-full object-cover object-center"
                   src={img1}
@@ -71,8 +73,8 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
-              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <div class="p-4 md:w-1/3 ">
+              <div class="h-full border-2 bg-gray-300 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   class="lg:h-48 md:h-36 w-full object-cover object-center"
                   src={img2}
@@ -129,8 +131,8 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="p-4 md:w-1/3">
-              <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <div class="p-4 md:w-1/3 ">
+              <div class="h-full border-2 bg-gray-300 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   class="lg:h-48 md:h-36 w-full object-cover object-center"
                   src={img3}
