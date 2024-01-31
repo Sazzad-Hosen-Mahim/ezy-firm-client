@@ -120,9 +120,8 @@ const Marketplace = () => {
   return (
     <div title={"Dashboard - Users"}>
       <h1
-        data-aos="fade-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000"
+        data-aos="fade-down"
+        data-aos-duration="3000"
         className="text-center text-2xl font-bold m-12"
       >
         Marketplace
@@ -174,11 +173,7 @@ const Marketplace = () => {
           </div>
         </div>
 
-        <div
-          data-aos="zoom-in"
-          data-aos-duration="1500"
-          className="col-span-3 text-lg font-semibold userInfo grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5"
-        >
+        <div className="col-span-3 text-lg font-semibold userInfo grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5">
           {products?.map((p) => (
             <div className="card w-96 bg-base-100 shadow-xl h-2/3">
               <figure>

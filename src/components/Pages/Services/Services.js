@@ -9,7 +9,11 @@ const Services = () => {
   return (
     <div className="my-10">
       <section class="text-gray-600 body-font service-container">
-        <h1 className="text-3xl my-5 text-black text-center font-bold">
+        <h1
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          className="text-3xl my-5 text-black text-center font-bold"
+        >
           Services:{" "}
         </h1>
         <div className="w-4/5 text-center mx-auto text-black">
@@ -45,7 +49,7 @@ const Services = () => {
                       to="/servicepage"
                       class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
                     >
-                      Learn More
+                      Buy Service
                       <svg
                         class="w-4 h-4 ml-2"
                         viewBox="0 0 24 24"
@@ -108,7 +112,7 @@ const Services = () => {
                       to="/servicepage"
                       class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
                     >
-                      Learn More
+                      Buy Service
                       <svg
                         class="w-4 h-4 ml-2"
                         viewBox="0 0 24 24"
@@ -169,7 +173,7 @@ const Services = () => {
                       to="/servicepage"
                       class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
                     >
-                      Learn More
+                      Buy Service
                       <svg
                         class="w-4 h-4 ml-2"
                         viewBox="0 0 24 24"

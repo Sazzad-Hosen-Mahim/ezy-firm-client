@@ -15,7 +15,13 @@ const VideoSection = () => {
 
   return (
     <div className="mt-20 p-10">
-      <h2 className="text-center text-4xl font-bold">Video Section</h2>
+      <h2
+        data-aos="fade-down"
+        data-aos-duration="3000"
+        className="text-center text-4xl font-bold"
+      >
+        Video Section
+      </h2>
       <div className="w-4/5 text-center mx-auto">
         <hr />
       </div>

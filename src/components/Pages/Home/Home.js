@@ -6,6 +6,7 @@ import Header from "./Header";
 import Services from "../Services/Services";
 import Contact from "../Contact/Contact";
 import VideoSection from "../VideoSection/VideoSection";
+import AboutTwo from "../About/AboutTwo";
 
 const Home = () => {
   const [auth, setAuth] = useAuth();
@@ -15,6 +16,7 @@ const Home = () => {
       <Marketplace></Marketplace>
       <Services></Services>
       <VideoSection></VideoSection>
+      <AboutTwo></AboutTwo>
       <Contact></Contact>
     </Layout>
   );

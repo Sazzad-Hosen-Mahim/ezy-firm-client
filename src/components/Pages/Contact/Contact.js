@@ -42,7 +42,7 @@ const Contact = () => {
         Get In Touch
       </h5>
       <h2
-        data-aos="fade-up"
+        data-aos="fade-down"
         data-aos-duration="3000"
         className="text-5xl mb-16"
       >
