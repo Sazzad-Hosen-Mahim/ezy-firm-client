@@ -32,8 +32,22 @@ const Contact = () => {
   };
   return (
     <section id="contact" className="text-center mx-auto contact-section">
-      <h5 className="text-xl mb-5">Get In Touch</h5>
-      <h2 className="text-5xl mb-16">Contact Us</h2>
+      <h5
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        className="text-xl mb-5"
+      >
+        Get In Touch
+      </h5>
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        className="text-5xl mb-16"
+      >
+        Contact Us
+      </h2>
 
       <div className="container contact-container text-center mx-auto">
         <div className="contact-options">

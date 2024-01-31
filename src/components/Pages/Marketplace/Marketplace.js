@@ -119,7 +119,14 @@ const Marketplace = () => {
 
   return (
     <div title={"Dashboard - Users"}>
-      <h1 className="text-center text-2xl font-bold m-12">Marketplace</h1>
+      <h1
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+        className="text-center text-2xl font-bold m-12"
+      >
+        Marketplace
+      </h1>
       <div className="m-3 p-3 grid grid-cols-4 gap-3">
         <div className="">
           <h1 className="text-center font-semibold text-xl">
@@ -167,7 +174,11 @@ const Marketplace = () => {
           </div>
         </div>
 
-        <div className="col-span-3 text-lg font-semibold userInfo grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          className="col-span-3 text-lg font-semibold userInfo grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5"
+        >
           {products?.map((p) => (
             <div className="card w-96 bg-base-100 shadow-xl h-2/3">
               <figure>
