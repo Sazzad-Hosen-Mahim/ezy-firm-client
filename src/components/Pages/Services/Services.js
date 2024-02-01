@@ -27,17 +27,17 @@ const Services = () => {
               data-aos-duration="2000"
               class="p-4 md:w-1/3 "
             >
-              <div class="h-full border-2 bg-gray-300  border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div class="h-full border-2 bg-black  border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   class="lg:h-48 md:h-36 w-full object-cover object-center"
                   src={img1}
                   alt="blog"
                 />
                 <div class="p-6">
-                  <h1 class="title-font text-lg font-bold text-gray-900 mb-3">
+                  <h1 class="title-font text-lg font-bold text-sky-500 mb-3">
                     Soil Testing
                   </h1>
-                  <p class="leading-relaxed mb-3 service-paragraph">
+                  <p class="leading-relaxed mb-3 text-white service-paragraph">
                     Our Soil Testing service provides essential insights into
                     soil health for farmers and gardeners. Through advanced
                     analysis, we assess nutrient levels, pH balance, and
@@ -88,17 +88,17 @@ const Services = () => {
               data-aos-duration="2000"
               class="p-4 md:w-1/3 "
             >
-              <div class="h-full border-2 bg-gray-300 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div class="h-full border-2 bg-black border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   class="lg:h-48 md:h-36 w-full object-cover object-center"
                   src={img2}
                   alt="blog"
                 />
                 <div class="p-6">
-                  <h1 class="title-font text-lg font-bold text-gray-900 mb-3">
+                  <h1 class="title-font text-lg font-bold text-sky-500 mb-3">
                     Fertilization
                   </h1>
-                  <p class="leading-relaxed mb-3 service-paragraph">
+                  <p class="leading-relaxed mb-3 text-white service-paragraph">
                     Elevate your crops with our Fertilization service, a key
                     player in maximizing agricultural productivity. Our
                     specialized approach tailors nutrient applications to the
@@ -151,17 +151,17 @@ const Services = () => {
               data-aos-duration="2000"
               class="p-4 md:w-1/3 "
             >
-              <div class="h-full border-2 bg-gray-300 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div class="h-full border-2 bg-black border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <img
                   class="lg:h-48 md:h-36 w-full object-cover object-center"
                   src={img3}
                   alt="blog"
                 />
                 <div class="p-6">
-                  <h1 class="title-font text-lg font-bold text-gray-900 mb-3">
+                  <h1 class="title-font text-lg font-bold text-sky-500 mb-3">
                     Pest and Disease Control
                   </h1>
-                  <p class="leading-relaxed mb-3 service-paragraph">
+                  <p class="leading-relaxed mb-3 text-white service-paragraph">
                     Defend your crops with our Pest and Disease Control service.
                     We employ cutting-edge techniques to identify, manage, and
                     prevent the impact of pests and diseases on your
